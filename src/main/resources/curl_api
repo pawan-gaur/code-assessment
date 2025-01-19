@@ -1,0 +1,9 @@
+1. curl --location 'localhost:8090/next-tracking-number?origin_country_id=IN&destination_country_id=UK&weight=1.540&created_at=2025-01-18T10:18:04+05:30&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox Logistics&customer_slug=redbox-logistics'
+
+2. curl --location 'localhost:8090/all'
+
+3. curl --location 'http://ec2-15-207-54-233.ap-south-1.compute.amazonaws.com:8090/health'
+
+4. curl --location 'http://ec2-15-207-54-233.ap-south-1.compute.amazonaws.com:8090/next-tracking-number?origin_country_id=IN&destination_country_id=UK&weight=1.540&created_at=2025-01-18T10:18:04+05:30&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox Logistics&customer_slug=redbox-logistics'
+
+2. curl --location 'http://ec2-15-207-54-233.ap-south-1.compute.amazonaws.com:8090/all'
