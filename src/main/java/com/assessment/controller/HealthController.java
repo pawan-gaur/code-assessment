@@ -10,7 +10,7 @@ public class HealthController {
 
     @GetMapping("/")
     public ResponseEntity<?> home() {
-        return new ResponseEntity<>("Welcome to code-assessment assignment", HttpStatus.OK);
+        return new ResponseEntity<>("Welcome to code-assessment assignment to generate tracking number", HttpStatus.OK);
     }
 
     @GetMapping("/health")
